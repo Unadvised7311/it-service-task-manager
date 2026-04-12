@@ -1,0 +1,15 @@
+# PostgreSQL für Produktionsprofil: SPRING_PROFILES_ACTIVE=prod
+services:
+  postgres:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_DB: taskmanager
+      POSTGRES_USER: taskmanager
+      POSTGRES_PASSWORD: taskmanager
+    ports:
+      - "5432:5432"
+    volumes:
+      - taskmanager_pgdata:/var/lib/postgresql/data
+
+volumes:
+  taskmanager_pgdata:

@@ -1,0 +1,15 @@
+-- Erstellt die Tabelle für User
+CREATE TABLE users (
+    id BIGINT AUTO_INCREMENT PRIMARY KEY,
+    username VARCHAR(255) NOT NULL,
+    password VARCHAR(255) NOT NULL,
+    role VARCHAR(255) NOT NULL
+);
+
+-- Erstellt die Tabelle für Projekte
+CREATE TABLE project (
+    id BIGINT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(255) NOT NULL,
+    description VARCHAR(255),
+    status VARCHAR(255)
+);
