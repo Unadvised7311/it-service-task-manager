@@ -1,4 +1,4 @@
-# 🛠️ NexusTask - IT-Service Task Manager
+# 🛠️ IT-Service Task Manager
 
 Ein modernes, rollenbasiertes Task-Management-System für IT-Service-Teams. Dieses Projekt wurde als Full-Stack-Webanwendung entwickelt und kombiniert ein robustes Java-Backend mit einem modernen React-Dashboard.
 
@@ -38,7 +38,7 @@ Navigiere im Terminal in den Backend-Ordner und starte die Spring Boot Anwendung
 cd backend
 mvn clean spring-boot:run
 
-Das Backend läuft nun auf http://localhost:8081.
+Das Backend läuft nun auf http://localhost:3000.
 (Die Datenbank wird bei jedem Start automatisch mit Testdaten gefüllt).
 2. Frontend starten
 
@@ -54,7 +54,7 @@ Das Frontend öffnet sich automatisch im Browser unter http://localhost:3000.
 
 Für die Evaluation des Systems sind folgende Test-Benutzer in der Datenbank hinterlegt:
 Rolle	Vorführ-Name	Rechte & Ansichten
-ADMIN	Admin-Alice	Vollzugriff, Admin-Panel, Benutzerverwaltung
+ADMIN	Admin	Vollzugriff, Admin-Panel, Benutzerverwaltung
 MANAGER	Manager-Bob	Projekte erstellen, Projekte archivieren, Tasks verwalten
 EMPLOYEE	Mitarbeiter-Charlie	Nur zugewiesene Projekte sehen, Tasks bearbeiten
 📚 Kontext
