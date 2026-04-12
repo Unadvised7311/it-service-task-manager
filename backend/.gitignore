@@ -1,0 +1,4 @@
+# H2 Datei-Datenbank (persistent, lokal)
+data/
+*.mv.db
+*.trace.db

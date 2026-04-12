@@ -9,6 +9,7 @@ com/danny/taskmanager/dto/InvitationPreviewDto.class
 com/danny/taskmanager/dto/AuthResponse.class
 com/danny/taskmanager/security/SecurityConfig.class
 com/danny/taskmanager/repository/TaskRepository.class
+com/danny/taskmanager/config/H2DevDataSeeder.class
 com/danny/taskmanager/dto/MemberAccessDto.class
 com/danny/taskmanager/dto/CreateInvitationRequest.class
 com/danny/taskmanager/service/CurrentUserService.class

@@ -3,6 +3,7 @@
 /home/danny/Schreibtisch/it-service-task-manager/backend/src/main/java/com/danny/taskmanager/dto/MemberAssignment.java
 /home/danny/Schreibtisch/it-service-task-manager/backend/src/main/java/com/danny/taskmanager/repository/ProjectRepository.java
 /home/danny/Schreibtisch/it-service-task-manager/backend/src/main/java/com/danny/taskmanager/dto/UserSummaryDto.java
+/home/danny/Schreibtisch/it-service-task-manager/backend/src/main/java/com/danny/taskmanager/config/H2DevDataSeeder.java
 /home/danny/Schreibtisch/it-service-task-manager/backend/src/main/java/com/danny/taskmanager/dto/UpdateRoleRequest.java
 /home/danny/Schreibtisch/it-service-task-manager/backend/src/main/java/com/danny/taskmanager/controller/AuthController.java
 /home/danny/Schreibtisch/it-service-task-manager/backend/src/main/java/com/danny/taskmanager/controller/AdminUserController.java
